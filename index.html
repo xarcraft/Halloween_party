@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nightmare Weekend</title>
+    <!-- Icono pagina web -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/category-ghost.png"
+      type="image/x-icon"
+    />
+    <!-- estilos css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="assets/img/home-pumpkin.png" alt="" class="img-fluid" />
+          </a>
+          <button class="navbar-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav nav-auto">
+              <li><a href="pages/viernes.html">Viernes</a></li>
+              <li><a href="pages/sabado.html">Sabado</a></li>
+              <li><a href="pages/domingo.html">Domingo</a></li>
+              <li><a href="pages/lunes.html">Lunes</a></li>
+              <li><a href="pages/martes.html">Martes</a></li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+              <li><a href="#" class="asist">Asistire</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Home banner start -->
+    <div class="home-banner">
+      <div class="container-banner">
+        <div class="row">
+          <div class="home-img">
+            <img src="assets/img/banner.png" alt="" class="banner-img" />
+            <div class="cloud-img">
+              <img src="assets/img/cloud.png" alt="" style="--i: 1" />
+              <img src="assets/img/cloud.png" alt="" style="--i: 2" />
+              <img src="assets/img/cloud.png" alt="" style="--i: 3" />
+              <img src="assets/img/cloud.png" alt="" style="--i: 4" />
+              <img src="assets/img/cloud.png" alt="" style="--i: 5" />
+            </div>
+          </div>
+          <div class="banner-details">
+            <div class="container">
+              <div class="banner-text">
+                <h2 class="banner-title">
+                  Fin de semana de pesadilla <br />
+                  <span class="subtitle">En bar Corona Sevilla</span>
+                </h2>
+                <p class="banner-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Veniam autem, sequi nisi aliquid natus adipisci! Vel velit
+                  doloribus maxime quam fugiat officia explicabo cumque.
+                  Accusantium suscipit placeat architecto quam delectus?
+                </p>
+                <div class="banner-btn">
+                  <a href="#" class="btn"> aprender más </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home banner end -->
+
+    <script>
+      const navToggler = document.querySelector(".navbar-toggler");
+
+      const links = document.querySelector(".navbar-collapse");
+
+      navToggler.addEventListener("click", function () {
+        links.classList.toggle("show-links");
+      });
+    </script>
+  </body>
+</html>
